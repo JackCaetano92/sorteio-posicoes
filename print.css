@@ -1,0 +1,21 @@
+*{margin: 0; padding: 0; font-size: 10px; text-align: center;}
+
+.sorteio{width: 100%; text-align: center; clear: both;}
+
+.posicoes{margin: 5px;}
+
+@page {margin: 0.5cm;}
+
+table tr td{border: 1px solid black;}
+
+.tabela{margin: auto;}
+
+.botoes{display: none;}
+
+td{width: 110px;}
+
+.tbody-th{padding-right: 20px;}
+
+.janta{background-color: blue;}
+
+.titulo{color: indigo; font-family: 'Courier New', Courier, monospace; font-size: 12px; text-align: center; margin-top: 15px;}

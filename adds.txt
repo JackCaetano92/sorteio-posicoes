@@ -1,0 +1,5 @@
+-Adicionado o 'rand' para sorteio dos funcionários e adição automática às colunas (posição X horário)
+
+-Adicionado o botão de impressão (funcionando)
+
+-Adicionado o botão de refresh de sorteio

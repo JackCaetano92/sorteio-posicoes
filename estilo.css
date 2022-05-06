@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sorteio{
+    width: 100%;
+    text-align: center;
+     clear: both;
+}
+
+.posicoes{
+    margin: 15px;
+    padding: 20px;
+    float: left;
+
+}
+
+.botoes{
+    float: right;
+}
+
+.imprimir, .refresh{
+    margin: 45px;
+    padding: 5px;
+}
+
+table tr td{border: 1px solid black;}
+
+.tabela{margin: auto;}
+
+td{width: 110px;}
+
+.div-table{
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 900px;
+    padding: 15px;
+    align-items: center;
+    align-content: center;
+    margin: 20px auto;
+    
+}
+
+.tbody-th{padding-right: 20px;}
+
+.janta{background-color: aquamarine;}
+
+.titulo{
+    color: indigo;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-align: center;
+}
