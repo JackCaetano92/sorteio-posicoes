@@ -27,7 +27,7 @@ $sorteado[1] = $funcionarios[rand(0,$numFuncionarios - 1)];
 # Segunda posição
 for ($i = 1; $i < 2; $i++) {
     $sorteado[2] = $funcionarios[rand(0,$numFuncionarios - 1)];
-    // Caso o ganhador já tenha saido, sorteia novamente.
+    // Caso o funcionário já tenha sido  sorteado, sorteia novamente.
     if ($sorteado[2] == $sorteado[1]) {
         --$i;
     }
@@ -35,7 +35,7 @@ for ($i = 1; $i < 2; $i++) {
 # Terceira posição
 for ($i = 1; $i < 2; $i++) {
     $sorteado[3] = $funcionarios[rand(0,$numFuncionarios - 1)];
-    // Caso o ganhador já tenha saido, sorteia novamente.
+    // Caso o funcionário já tenha sido  sorteado, sorteia novamente.
     if ($sorteado[3] == $sorteado[1] || $sorteado[3] == $sorteado[2]) {
         --$i;
     }
@@ -43,7 +43,7 @@ for ($i = 1; $i < 2; $i++) {
 # Quarta posição
 for ($i = 1; $i < 2; $i++) {
     $sorteado[4] = $funcionarios[rand(0,$numFuncionarios - 1)];
-    // Caso o ganhador já tenha saido, sorteia novamente.
+    // Caso o funcionário já tenha sido  sorteado, sorteia novamente.
     if ($sorteado[4] == $sorteado[1] || $sorteado[4] == $sorteado[2] || $sorteado[4] == $sorteado[3]) {
         --$i;
     }
@@ -51,7 +51,7 @@ for ($i = 1; $i < 2; $i++) {
 # Quinta posição
 for ($i = 1; $i < 2; $i++) {
     $sorteado[5] = $funcionarios[rand(0,$numFuncionarios - 1)];
-    // Caso o ganhador já tenha saido, sorteia novamente.
+    // Caso o funcionário já tenha sido  sorteado, sorteia novamente.
     if ($sorteado[5] == $sorteado[1] || $sorteado[5] == $sorteado[2] || $sorteado[5] == $sorteado[3] || $sorteado[5] == $sorteado[4]) {
         --$i;
     }
@@ -59,7 +59,7 @@ for ($i = 1; $i < 2; $i++) {
 # Sexta posição
 for ($i = 1; $i < 2; $i++) {
     $sorteado[6] = $funcionarios[rand(0,$numFuncionarios - 1)];
-    // Caso o ganhador já tenha saido, sorteia novamente.
+    // Caso o funcionário já tenha sido  sorteado, sorteia novamente.
     if ($sorteado[6] == $sorteado[1] || $sorteado[6] == $sorteado[2] || $sorteado[6] == $sorteado[3] || $sorteado[6] == $sorteado[4] || $sorteado[6] == $sorteado[5]) {
         --$i;
     }
@@ -67,7 +67,7 @@ for ($i = 1; $i < 2; $i++) {
 # Sétima posição
 for ($i = 1; $i < 2; $i++) {
     $sorteado[7] = $funcionarios[rand(0,$numFuncionarios - 1)];
-    // Caso o ganhador já tenha saido, sorteia novamente.
+    // Caso o funcionário já tenha sido  sorteado, sorteia novamente.
     if ($sorteado[7] == $sorteado[1] || $sorteado[7] == $sorteado[2] || $sorteado[7] == $sorteado[3] || $sorteado[7] == $sorteado[4] || $sorteado[7] == $sorteado[5] || $sorteado[7] == $sorteado[6]) {
         --$i;
     }
